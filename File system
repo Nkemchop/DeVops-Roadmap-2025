@@ -1,0 +1,25 @@
+What is the Linux File System
+The Linux file system is a multifaceted structure comprised of three essential layers. At its foundation, 
+the Logical File System serves as the interface between user applications and the file system, managing operations like opening, reading, and closing files.
+Above this, the Virtual File System facilitates the concurrent operation of multiple physical file systems, providing a standardized interface for compatibility. 
+Finally, the Physical File System is responsible for the tangible management and storage of physical memory blocks on the disk, ensuring efficient data allocation and retrieval. 
+Together, these layers form a cohesive architecture, orchestrating the organized and efficient handling of data in the Linux operating system.
+In this article, we will be focusing on the file system for hard disks on a Linux OS and discuss which type of file system is suitable. 
+The architecture of a file system comprises three layers mentioned below.
+Linux File System Structure
+A file system mainly consists of 3 layers. From top to bottom:
+
+1. Logical File System:
+The Logical File System acts as the interface between the user applications and the file system itself. 
+It facilitates essential operations such as opening, reading, and closing files.
+Essentially, it serves as the user-friendly front-end, ensuring that applications can interact with the file system in a way that aligns with user expectations.
+
+2. Virtual File System:
+The Virtual File System (VFS) is a crucial layer that enables the concurrent operation of multiple instances of physical file systems. 
+It provides a standardized interface, allowing different file systems to coexist and operate simultaneously. 
+This layer abstracts the underlying complexities, ensuring compatibility and cohesion between various file system implementations.
+
+3. Physical File System:
+The Physical File System is responsible for the tangible management and storage of physical memory blocks on the disk.
+It handles the low-level details of storing and retrieving data, interacting directly with the hardware components.
+This layer ensures the efficient allocation and utilization of physical storage resources, contributing to the overall performance and reliability of the file system.
