@@ -1,0 +1,16 @@
+What are Shell Commands in Linux?
+A shell in Linux is a program that serves as an interface between the user and the operating system.
+It accepts commands from the user, interprets them, and passes them to the operating system for execution.
+The commands can be used for a wide range of tasks, from file manipulation to system management.
+
+Some of the essential basic shell commands in Linux for different operations are:
+
+File Management -> cp, mv, rm, mkdir
+Navigation -> cd, pwd, ls
+Text Processing -> cat, grep, sort, head
+System Monitoring -> top, ps, df
+Permissions and Ownership -> chmod, chown, chgrp
+Networking – > ping, wget, curl, ssh, scp, ftp
+Compression and Archiving – > tar, gzip, gunzip, zip, unzip
+Package Management – > dnf, yum, apt-get
+Process Management -> kill, killall, bg, killall, kill
